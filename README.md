@@ -3,7 +3,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue)
-![Last Commit](https://img.shields.io/github/last-commit/Eufragio/-boutique-system)
+![Last Commit](https://img.shields.io/github/last-commit/Eufragio/boutique-system)
 
 Sistema web de gestión integral para tiendas boutique — ventas, inventario, caja, compras y reportes desde una sola interfaz.
 
@@ -38,7 +38,7 @@ Sistema web de gestión integral para tiendas boutique — ventas, inventario, c
 Requiere [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 
 ```bash
-git clone https://github.com/Eufragio/-boutique-system.git
+git clone https://github.com/Eufragio/boutique-system.git
 cd boutique-system
 cp .env.example .env
 docker compose up --build
@@ -53,7 +53,7 @@ Abrí `http://localhost:3000`.
 **Requisitos:** Node.js v18+ · PostgreSQL v14+
 
 ```bash
-git clone https://github.com/Eufragio/-boutique-system.git
+git clone https://github.com/Eufragio/boutique-system.git
 cd boutique-system
 npm install
 cp .env.example .env
