@@ -114,7 +114,7 @@ const controller = {
                 { header: 'Comprobante', key: 'tipo', width: 15 },
                 { header: 'Método Pago', key: 'metodo', width: 15 },
                 { header: 'Estado', key: 'estado', width: 15 },
-                { header: 'Total (S/)', key: 'total', width: 15 },
+                { header: 'Total ($)', key: 'total', width: 15 },
             ];
 
             // Estilo para el encabezado (Negrita y Fondo Gris)

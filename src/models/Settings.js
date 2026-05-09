@@ -26,7 +26,7 @@ const Settings = {
                 data.telefono, 
                 data.mensaje, 
                 data.logo_url || null, 
-                data.moneda || 'S/', 
+                data.moneda || '$', 
                 data.zona_horaria || 'America/Lima',
                 current.id
             ];
@@ -44,7 +44,7 @@ const Settings = {
                 data.telefono, 
                 data.mensaje, 
                 data.logo_url,
-                data.moneda || 'S/',
+                data.moneda || '$',
                 data.zona_horaria || 'America/Lima'
             ];
             const { rows } = await pool.query(query, values);

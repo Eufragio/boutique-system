@@ -10,7 +10,7 @@ const controller = {
                 direccion: '',
                 telefono: '',
                 mensaje_ticket: '',
-                moneda: 'S/',
+                moneda: '$',
                 zona_horaria: 'America/Lima',
                 logo_url: null
             };

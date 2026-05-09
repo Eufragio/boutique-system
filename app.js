@@ -63,7 +63,7 @@ app.use(async (req, res, next) => {
 
     let shopConfig = { 
         nombre_negocio: 'Boutique System', 
-        moneda: 'S/', 
+        moneda: '$',
         zona_horaria: 'America/Lima' 
     };
 

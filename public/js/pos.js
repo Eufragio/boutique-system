@@ -229,7 +229,7 @@ function actualizarCarrito() {
     contenedor.innerHTML = '';
     totalVenta = 0;
 
-    const moneda = (typeof SHOP_MONEDA !== 'undefined') ? SHOP_MONEDA : 'S/';
+    const moneda = (typeof SHOP_MONEDA !== 'undefined') ? SHOP_MONEDA : '$';
     const totalItems = carrito.reduce((s, i) => s + i.cantidad, 0);
 
     if (carrito.length === 0) {
@@ -288,7 +288,7 @@ function actualizarCarrito() {
 async function procesarVenta() {
     const clienteId  = document.getElementById('selectCliente').value;
     const metodoPago = document.querySelector('input[name="metodoPago"]:checked')?.value || 'Efectivo';
-    const moneda     = (typeof SHOP_MONEDA !== 'undefined') ? SHOP_MONEDA : 'S/';
+    const moneda     = (typeof SHOP_MONEDA !== 'undefined') ? SHOP_MONEDA : '$';
 
     if (!clienteId) {
         mostrarToast('⚠️ Selecciona un cliente antes de cobrar', 'warning');
