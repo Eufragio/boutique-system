@@ -3,3 +3,10 @@ node_modules/
 public/uploads/*
 !public/uploads/.gitkeep
 fix-password.js
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+coverage/

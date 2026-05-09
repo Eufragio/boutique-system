@@ -44,7 +44,7 @@ app.use(express.json());
 
 // Configuración de Sesión
 app.use(session({
-    secret: 'mi_secreto_super_seguro_boutique_2026',
+    secret: process.env.SESSION_SECRET || 'dev-secret-change-in-production',
     resave: false,
     saveUninitialized: false,
     cookie: { secure: false }
